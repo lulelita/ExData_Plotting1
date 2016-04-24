@@ -40,5 +40,5 @@ legend("topright", lty=1,lwd=2, col = c("black", "red", "blue"), legend=c("Sub_m
 
 #create the fourth subplot(bottom right):
 plot(mydata2$datetime, mydata2$Global_reactive_power, type="n",ylab="Global_reactive_power",xlab="datetime")
-lines(mydata2$datetime, mydata2$Global_reactive_power,lwd=2)
+lines(mydata2$datetime, mydata2$Global_reactive_power,lwd=1)
 dev.off()
